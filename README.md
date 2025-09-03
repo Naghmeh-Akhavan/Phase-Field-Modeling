@@ -142,4 +142,5 @@ Figure 3 (type_visual =1, type_f=1), Figure 4 (type_visual =2, type_f=1), Figure
 
 ---
 
-*For questions or issues, please refer to the comments within individual MATLAB files or contact the author Naghmeh Akhavan (nakhava1@umbc.edu) or Bradford E. Peercy (bpeercy@umbc.edu).*
+
+*For questions or issues, please refer to the comments within individual MATLAB files or contact the author Naghmeh Akhavan (nakhavan@umich.edu) or Bradford E. Peercy (bpeercy@umbc.edu).*
