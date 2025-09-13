@@ -98,7 +98,7 @@ The main solver script orchestrates the simulation in two phases:
 ### Phase 1: Steady State Solution
 The steady state solution only needs to be computed once for a given set of biological parameters. Once completed, the results are automatically saved in the `results/` folder with a unique filename based on the parameter configuration (`param_id_string`). For subsequent runs with the same parameters, you can set `params.run_steadyQ = 0` to skip this phase and load the existing steady state solution.
 
-### Phase 2: Concentration Dynamicsd
+### Phase 2: Concentration Dynamics
 
 This phase builds upon the steady state solution to incorporate concentration dynamics and chemotaxis. The solver uses the final cell configuration from Phase 1 as the initial condition. To enable or disable concentration dynamics, modify `params.run_concenQ` in `config.m`:
 
@@ -144,3 +144,4 @@ Figure 3 (type_visual =1, type_f=1), Figure 4 (type_visual =2, type_f=1), Figure
 
 
 *For questions or issues, please refer to the comments within individual MATLAB files or contact the author Naghmeh Akhavan (nakhavan@umich.edu) or Bradford E. Peercy (bpeercy@umbc.edu).*
+
